@@ -1,5 +1,5 @@
  # Révision JavaScript
-Ce wiki n'a pour but que t'aider les jeune autodidacte francophone a appréhender JavaScript et servir de rappel a ceux qui le connaisse déjà.
+Ce wiki n'a pour but que t'aider les autodidactes francophone a appréhender JavaScript et servir de rappel a ceux qui le connaisse déjà.
 
 JavaScript est la base de la majorité des Librairies et Framework Front-end, dans ce contexte avoir une connaissance complète de JS est important.
 
