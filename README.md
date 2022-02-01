@@ -70,7 +70,6 @@ Les titres sont en Anglais puis en Français pour connaitre les termes utilisé 
 	11. [Review][R6]
 	 
 
-
 _Documentations Traduite en Français depuis la version gratuite du cours 'Learn Javascript' de [Codecademy.com][CC]_
 
 [1]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/1.-Introduction
