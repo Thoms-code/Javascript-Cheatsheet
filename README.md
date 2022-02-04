@@ -1,6 +1,6 @@
 
  # Révision JavaScript
-Ce wiki n'a pour but que d'aider les autodidactes francophone a appréhender JavaScript et servir de rappel a ceux qui le connaisse déjà.
+Ce wiki n'a pour but que d'aider les autodidactes francophone a appréhender JavaScript et servir de rappel a ceux qui le connaisse déjà, a la base je comptais le garder pour moi, mais l'option 'wiki' sur github n'est accesible qu'aux repo en visibilité public. 
 
 JavaScript est la base de la majorité des Librairies et Framework Front-end, dans ce contexte avoir une connaissance complète de JS est important.
 
