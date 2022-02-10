@@ -1,6 +1,6 @@
 
  # Révision JavaScript
-Ce wiki n'a pour but que d'aider les autodidactes francophone a appréhender JavaScript et servir de rappel a ceux qui le connaisse déjà, a la base je comptais le garder pour moi, mais l'option 'wiki' sur github n'est accesible qu'aux repo en visibilité public. 
+Ce wiki n'a pour but que t'aider les autodidactes francophone a appréhender JavaScript et servir de rappel a ceux qui le connaisse déjà.
 
 JavaScript est la base de la majorité des Librairies et Framework Front-end, dans ce contexte avoir une connaissance complète de JS est important.
 
@@ -68,7 +68,18 @@ Les titres sont en Anglais puis en Français pour connaitre les termes utilisé 
 	9. [Arrays and Functions | Tableaux et fonctions][6.9]
 	10. [Nested Arrays | Tableaux imbriqués][6.10]
 	11. [Review][R6]
+7. [**Loops | Boucles**][7]
+	1. [Repeating Tasks Manually | Répétition manuelle des tâches][7.1]
+	2. [The For Loop | La boucle For][7.2]
+	3. [Looping in Reverse | Boucle à l'envers][7.3]
+	4. [Looping through Arrays | Boucle dans les tableaux][7.4]
+	5. [Nested Loops | Boucles imbriquées][7.5]
+	6. [The While Loop | La boucle While][7.6]
+	7. [Do...While Statements | Déclarations Do...While][7.7]
+	8. [The break Keyword | Le mot-clé "break"][7.8]
+	9. [Review][R7]
 	 
+
 
 _Documentations Traduite en Français depuis la version gratuite du cours 'Learn Javascript' de [Codecademy.com][CC]_
 
@@ -83,6 +94,7 @@ _Documentations Traduite en Français depuis la version gratuite du cours 'Learn
 [1.8]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/1.-Introduction#18-methods--m%C3%A9thodes
 [1.9]:https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/1.-Introduction#19-built-in-objects--objets-int%C3%A9gr%C3%A9s
 [R1]:https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/1.-Introduction#review
+
 [2]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/2.-Variable
 [2.1]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/2.-Variable#21-create-a-variable-var--cr%C3%A9er-une-variable--var
 [2.2]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/2.-Variable#22-create-a-variable-let--cr%C3%A9er-une-variable--let
@@ -93,11 +105,13 @@ _Documentations Traduite en Français depuis la version gratuite du cours 'Learn
 [2.7]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/2.-Variable#27-string-interpolation--interpolation-des-cha%C3%AEnes-de-caract%C3%A8res
 [2.8]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/2.-Variable#28-typeof-operator--op%C3%A9rateur-typeof
 [R2]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/2.-Variable#review
+
 [3]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/3.-Conditional-Statements-%7C-D%C3%A9clarations-conditionnelles
 [3.1]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/3.-Conditional-Statements-%7C-D%C3%A9clarations-conditionnelles#3-1-truthy-and-falsy-assignment--affectation-de-truthy-et-falsy
 [3.2]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/3.-Conditional-Statements-%7C-D%C3%A9clarations-conditionnelles#32-ternary-operator--op%C3%A9rateur-ternaire
 [3.3]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/3.-Conditional-Statements-%7C-D%C3%A9clarations-conditionnelles#33-the-switch-keyword--le-mot-cl%C3%A9-switch
 [R3]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/3.-Conditional-Statements-%7C-D%C3%A9clarations-conditionnelles#review
+
 [4]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/4.-Function-%7C-Fonction
 [4.1]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/4.-Function-%7C-Fonction#41-que-sont-les-fonctions-
 [4.2]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/4.-Function-%7C-Fonction#42-function-declarations--d%C3%A9clarations-de-fonctions
@@ -110,6 +124,7 @@ _Documentations Traduite en Français depuis la version gratuite du cours 'Learn
 [4.9]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/4.-Function-%7C-Fonction#49-arrow-functions--fonctions-fl%C3%A9ch%C3%A9es
 [4.10]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/4.-Function-|-Fonction#410-concise-body-arrow-functions--fonctions-fléchées-concises
 [R4]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/4.-Function-%7C-Fonction#review
+
 [5]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/5.-Scope-%7C-Port%C3%A9e
 [5.1]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/5.-Scope-%7C-Port%C3%A9e#51-blocks-and-scope--blocs-et-champ-dapplication
 [5.2]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/5.-Scope-%7C-Port%C3%A9e#52-global-scope--port%C3%A9e-globale
@@ -117,6 +132,7 @@ _Documentations Traduite en Français depuis la version gratuite du cours 'Learn
 [5.4]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/5.-Scope-%7C-Port%C3%A9e#54-scope-pollution--pollution-de-port%C3%A9e
 [5.5]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/5.-Scope-%7C-Port%C3%A9e#55-practice-good-scoping--pratiquer-un-bon-scoping
 [R5]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/5.-Scope-%7C-Port%C3%A9e#review
+
 [6]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/6.-Arrays-%7C-Tableaux
 [6.1]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/6.-Arrays-%7C-Tableaux#61-create-an-array--cr%C3%A9er-un-tableau
 [6.2]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/6.-Arrays-|-Tableaux#62-accessing-elements--accès-aux-éléments
@@ -129,6 +145,17 @@ _Documentations Traduite en Français depuis la version gratuite du cours 'Learn
 [6.9]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/6.-Arrays-%7C-Tableaux#69-arrays-and-functions--tableaux-et-fonctions
 [6.10]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/6.-Arrays-%7C-Tableaux#610-nested-arrays--tableaux-imbriqu%C3%A9s
 [R6]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/6.-Arrays-%7C-Tableaux#review
+
+[7]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/7.-Loops-%7C-Boucles
+[7.1]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/7.-Loops-%7C-Boucles#71-repeating-tasks-manually--r%C3%A9p%C3%A9tition-manuelle-des-t%C3%A2ches
+[7.2]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/7.-Loops-%7C-Boucles#72-the-for-loop--la-boucle-for
+[7.3]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/7.-Loops-%7C-Boucles#73-looping-in-reverse--boucle-%C3%A0-lenvers
+[7.4]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/7.-Loops-%7C-Boucles#74-looping-through-arrays--boucle-dans-les-tableaux
+[7.5]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/7.-Loops-%7C-Boucles#75-nested-loops--boucles-imbriqu%C3%A9es
+[7.6]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/7.-Loops-%7C-Boucles#76-the-while-loop--la-boucle-while
+[7.7]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/7.-Loops-%7C-Boucles#77-dowhile-statements--d%C3%A9clarations-dowhile
+[7.8]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/7.-Loops-%7C-Boucles#78-the-break-keyword--le-mot-cl%C3%A9-break
+[R7]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/7.-Loops-%7C-Boucles#review
 
 
 
