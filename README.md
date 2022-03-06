@@ -78,7 +78,10 @@ Les titres sont en Anglais puis en Français pour connaitre les termes utilisé 
 	7. [Do...While Statements | Déclarations Do...While][7.7]
 	8. [The break Keyword | Le mot-clé "break"][7.8]
 	9. [Review][R7]
-	 
+8. [**Higher-order Functions | Fonctions d'ordre Supérieure**][8]
+	1. [Functions as Data | Fonctions comme données][8.1]
+	2. [Functions as Parameters | Fonctions comme paramètres][8.2]
+	3. [Review][R8]
 
 
 _Documentations Traduite en Français depuis la version gratuite du cours 'Learn Javascript' de [Codecademy.com][CC]_
@@ -157,6 +160,9 @@ _Documentations Traduite en Français depuis la version gratuite du cours 'Learn
 [7.8]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/7.-Loops-%7C-Boucles#78-the-break-keyword--le-mot-cl%C3%A9-break
 [R7]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/7.-Loops-%7C-Boucles#review
 
-
+[8]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/8.-Higher-order-Functions-%7C%C2%A0Fonctions-Sup%C3%A9rieure
+[8.1]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/8.-Higher-order-Functions-%7C%C2%A0Fonctions-Sup%C3%A9rieure#81-functions-as-data--fonctions-comme-donn%C3%A9es
+[8.2]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/8.-Higher-order-Functions-%7C%C2%A0Fonctions-Sup%C3%A9rieure#82-functions-as-parameters--fonctions-comme-param%C3%A8tres
+[R8]: https://github.com/Thoms-code/Javascript-Cheatsheet/wiki/8.-Higher-order-Functions-%7C%C2%A0Fonctions-Sup%C3%A9rieure#review
 
 [CC]: https://www.codecademy.com/
